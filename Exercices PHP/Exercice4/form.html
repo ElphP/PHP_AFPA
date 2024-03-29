@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulaire - ex4</title>
+    </head>
+    <body>
+        <h1>Un petit formulaire (pour commencer)</h1>
+        <br />
+        <p>Merci de renseigner les données suivantes:</p>
+        <br />
+
+        <form action="./form.php" method="get">
+            <table>
+                <tr>
+                    <td><label for="nom">Votre nom:</label></td>
+                    <td><input type="text" id="nom" name="nom" /></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Votre âge:</label></td>
+                    <td><input type="number" id="age" name="age" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="situation_m"
+                            >Votre situation maritale:</label
+                        >
+                    </td>
+                    <td>
+                        <input
+                            type="radio"
+                            name="marit"
+                            id="married"
+                            value="marié"
+                            checked
+                        /><label for="married">Marié</label
+                        ><input
+                            type="radio"
+                            name="marit"
+                            id="veuf"
+                            value="veuf"
+                        /><label for="veuf">Veuf(ve)</label
+                        ><input
+                            type="radio"
+                            name="marit"
+                            id="celib"
+                            value="célibataire"
+                        /><label for="celib">Célibataire</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="interet">Vos centres d'intérêts:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="int" id="int" /><label
+                            for="int"
+                            >Internet</label
+                        ><input type="checkbox" name="inf" id="inf" /><label
+                            for="inf"
+                            >Informatique</label
+                        ><input
+                            type="checkbox"
+                            name="jeux_video"
+                            id="jeux_video"
+                        /><label for="jeux_video">Jeux vidéos</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Envoyer</button></td>
+                    <td><button type="reset">Effacer</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+.container {
+    background-color: gray;
+    width: 850px;
+    text-align: center;
+    margin:10px auto;
+}
+
+.article,
+.prix,
+.btn {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: space-between;
+}
+
+.designation,
+.cat {
+    background-color: rgb(43, 36, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+form > div {
+    padding: 15px;
+    color: beige;
+}
+
+button {
+    background-color: red;
+    color: beige;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.mess {
+    width: 500px;
+    font-size: 0.9rem;
+    color: red;
+}
+
+label {
+    width: 150px;
+    text-align: start;
+}
+
+input,
+select {
+    width: 200px;
+    height: 20px;
+}
+
+.messNO {
+    color: red;
+    font-size: 1.5rem;
+    background-color: rgb(78, 78, 78);
+}
+.messOK {
+    font-size: 1.5rem;
+    background-color: rgb(78, 78, 78);
+    color: green;
+}
+
+input:focus {
+    outline: none;
+}
+
+div[id="id_article"] {
+    width: 200px;
+    background-color: beige;
+    height: 20px;
+    color:black;
+}
+
+.boutons  {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

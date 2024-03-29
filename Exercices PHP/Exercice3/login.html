@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login - Exercice 3</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+        <h1>Bienvenue sur notre site Web</h1>
+
+        <form class="form" action="loginCtrl.php" method="post">
+            
+                <div class="identifiant">
+                    <label for="id">Votre identifiant:</label>
+                    <input type="text" name="id" />
+                </div>
+                <div class="password">
+                    <label for="mdp">Votre mot de passe:</label>
+                    <input type="password" name="mdp" id="mdp" />
+                </div>
+                <div class="boutons">
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Recommencer</button>
+                </div>
+            
+        </form>
+    </body>
+</html>

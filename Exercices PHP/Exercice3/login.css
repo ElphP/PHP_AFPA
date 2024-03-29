@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: end;
+}
+
+.boutons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+}
+
+.identifiant {
+    margin-bottom: 10px;
+}

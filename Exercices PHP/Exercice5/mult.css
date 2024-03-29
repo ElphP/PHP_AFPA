@@ -1,0 +1,19 @@
+body {
+    background-color: #060606;
+    color: white;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.case_claire {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
